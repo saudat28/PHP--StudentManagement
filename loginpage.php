@@ -34,6 +34,7 @@
              </div>
              <div class="mb-3">
              <button type="submit"  name="submit" class="btn btn-primary">Login</button>
+             <button type="submit"  name="submit" class="btn btn-primary">Go Back</button>
              </div>
 
              </div>
