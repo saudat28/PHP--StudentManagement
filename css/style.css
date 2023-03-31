@@ -18,7 +18,20 @@ body h2{
    font-size:17px;
    margin-bottom: 0px;
 }
+#section-cover1{
 
+   background-size: cover;
+   display: flex;
+  
+   justify-content: center;
+   font-size:17px;
+   margin-bottom: 0px;
+}
+#section-cover1 .content{
+  background-image: url(images/template.jpg);
+
+  height:  900px;
+}
 
 .content {
   
@@ -274,6 +287,36 @@ color: white;
     .enroll-form p,label{
     color: white;
     }
-/* STUDENTS NAVIGATION BAR */
-
-/* ALERT */
+/* LANDING PAGE*/
+.btnland{
+  background-color: #e64922;
+  color: white;
+  height:  40px;
+  width: 130px;
+  float: right;
+  margin-top: 80px;
+  margin-right: 70px;
+  border-radius: 15px 15px;
+}
+.btnland a{
+  color: white;
+}
+.btnland a:hover{
+color: black;
+transform: scale(0.9);
+transform: 2s;
+}
+.land-cover{
+  border-radius: 50px 50px;
+  
+}
+.btnland:hover{
+  transform: scale(0.9);
+  transform: 2s;
+  color: aliceblue;
+}
+.img-land{
+  text-align: center;
+  padding-left: 180px;
+  height:  1000px;
+}

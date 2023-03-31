@@ -34,7 +34,7 @@
              </div>
              <div class="mb-3">
              <button type="submit"  name="submit" >Login</button>
-             <button type="submit"  name="submit"><a class="backbtn" href="index.php"> Go Back </a></button>
+             <button><a class="backbtn" href="index.php"> Go Back </a></button>
              </div>
 
              </div>
