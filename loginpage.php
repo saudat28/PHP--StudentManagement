@@ -33,8 +33,8 @@
                  <input type="password" required  name="password" class="form-control" id="formGroupExampleInput2">
              </div>
              <div class="mb-3">
-             <button type="submit"  name="submit" class="btn btn-primary">Login</button>
-             <button type="submit"  name="submit" class="btn btn-primary">Go Back</button>
+             <button type="submit"  name="submit" >Login</button>
+             <button type="submit"  name="submit"><a class="backbtn" href="index.php"> Go Back </a></button>
              </div>
 
              </div>
