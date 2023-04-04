@@ -16,7 +16,7 @@ class Signup extends Dbh{
             $stmt = null;
             header("location: ..index.php?error=stmtfailed1");
         }
-        $stmt = null;
+        
     }
 
    protected function checkUser($username,$email){
@@ -28,14 +28,21 @@ class Signup extends Dbh{
             exit();
         }
        // return $resultCheck;
-
         if($stmt->rowCount() > 0){
            $resultCheck = false;
         }
+        
         else{
             $resultCheck = true;
+        $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        session_start();
+        $_SESSION["teacher_id"] = $user[0]["teacher_id"];
+        $_SESSION["username"] = $user[0]["username"];
+        $stmt = null;
+
         }
         return $resultCheck;
+       
     }
 }
 ?>

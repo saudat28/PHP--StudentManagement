@@ -44,7 +44,6 @@ class Login extends Dbh{
                 header("location: ../loginfo.php");
                 exit();
              }
-
            
              $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
              session_start();

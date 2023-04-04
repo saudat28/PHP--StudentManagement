@@ -53,7 +53,7 @@
                          </div>
                          <div class="mb-3">
                             <label for="formGroupExampleInput2" class="form-label">Re-enter your Password</label>
-                             <input type="" required  name="passwordrepe" class="form-control" id="formGroupExampleInput2">
+                             <input type="password" required  name="passwordrepe" class="form-control" id="formGroupExampleInput2">
                          </div>
                         <div class="mb-3">
                              <button type="submit" name="submit"class="button1">Sign Up</button>
