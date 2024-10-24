@@ -1,2 +1,2 @@
 # PHPStudentManagement
- PHP student management system
+This is a simple student management system built by PHP.
