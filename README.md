@@ -1,2 +1,2 @@
-# OOPStudentManagement
-OOP PHP student management system
+# PHPStudentManagement
+ PHP student management system
