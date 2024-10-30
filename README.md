@@ -1,16 +1,12 @@
-#Student Management
+# Student Management
+### The project is written in PHP, HTML, and CSS
 
-The project is written in (HTML, C++, PHP)
 Student Management Features and Coding Languages:
-
-1.	PHP
-  •	Login
-  •	User Registration
-  •	Add Student 
-  •	Delete Student 
-  •	Update Student
-
-3.	HTML + CSS
-  •	All interfaces 
-
-
+1. Bash Linux
+    * Login
+    * User Registration
+    * Add Student
+    * Delete student
+    * Update Student
+2. HTML and CSS
+    * All user interfaces 
