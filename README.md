@@ -2,7 +2,7 @@
 ### The project is written in PHP, HTML, and CSS
 
 Student Management Features and Coding Languages:
-1. Bash Linux
+1. PHP
     * Login
     * User Registration
     * Add Student
